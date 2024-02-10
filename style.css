@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.main {
+    display: flex;
+    width: 1000px;
+    height: 440px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.video-container {
+    width: 650px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(55, 55, 55, 0.2) 0px 7px 29px 0px;
+}
+
+.video-playlist {
+    padding: 10px;
+}
+
+.video-playlist h2 {
+    margin-left: 10px;
+}
+
+.video-container iframe {
+    width: 630px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.playlist-selector {
+    width: 300px;
+    padding: 10px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    box-shadow: rgba(55, 55, 55, 0.2) 0px 7px 29px 0px;
+}
+
+.playlist-selector button {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    margin: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.playlist-selector button:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.active {
+    background-color: rgb(200, 200, 200);
+}
+
+h4 {
+    margin: 5px;
+}
+
+.playlist-selector button img {
+    width: 100px;
+    height: 60px;
+    border-radius: 5px 0px  0px 5px;
+    margin-right: 10px;
+}
+

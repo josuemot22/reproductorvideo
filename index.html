@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Playlist 2024</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>PlayList de Videos en JavaScript </h1>
+
+    <div class="main">
+        
+
+        <div class="video-container">
+
+            <div class="video-playlist-1">
+                <iframe src="https://player.vimeo.com/video/199944928?title=0&portrait=0&byline=0&autoplay=1&muted=true" frameborder="0" allowfullscreen></iframe>
+                <h3>El bobtail japonés es una raza de gato doméstico.</h2>
+            </div>
+
+
+        </div>
+
+        <div class="playlist-selector">
+
+            <h4>Lista de Reproduccion</h4>
+
+            <button class="select-video active" id="selectVideo1" onclick="changeVideo(this, '//player.vimeo.com/video/199944928?title=0&portrait=0&byline=0&autoplay=1&muted=true', 'Title Cat 1');">
+                <img src="https://i.vimeocdn.com/video/613323363-4bd23fd527ce4aaf6b585c43fcb1d122bd40733122f4a38b949db6029de771f9-d?mw=400&mh=225&q=70" alt="">
+                <h3>Bobtail japonés</h3>
+            </button>
+            <button class="select-video" id="selectVideo2" onclick="changeVideo(this, '//player.vimeo.com/video/205484454?title=0&portrait=0&byline=0&autoplay=1&muted=true', 'Title Cat 2');">
+                <img src="https://i.vimeocdn.com/video/620264728-ebeeef81db475729291d9423329c1924031f2f35ce84ba8f414dcac878ed407b-d?mw=400&mh=225&q=70" alt="">
+                <h3>Gato Negro</h3>
+
+            </button>
+            <button class="select-video" id="selectVideo3" onclick="changeVideo(this, '//player.vimeo.com/video/371562948?title=0&portrait=0&byline=0&autoplay=1&muted=true', 'Title Cat 3');">
+                <img src="https://i.vimeocdn.com/video/829112659-7dd8f86263aed762845ec804b8f98bab47ed433a909b715551a8fbe133a398a8-d?mw=400&mh=211&q=70" alt="">
+                <h3>Titulo Gato 3</h3>
+
+            </button>
+            <button class="select-video" id="selectVideo4" onclick="changeVideo(this, '//player.vimeo.com/video/402527211?title=0&portrait=0&byline=0&autoplay=1&muted=true', 'Title Cat 4');">
+                <img src="https://i.vimeocdn.com/video/871665668-e06fa52e1547c9b0321df9ea34e183fc12a2a30fda7b5bfdda3313f393703aa9-d?mw=400&mh=225&q=70" alt="">
+                <h3>Titulo Gato 4</h3>
+
+            </button>
+            <button class="select-video" id="selectVideo5" onclick="changeVideo(this, '//player.vimeo.com/video/495304504?title=0&portrait=0&byline=0&autoplay=1&muted=true', 'Title Cat 5');">
+                <img src="https://i.vimeocdn.com/video/1024610283-363d3a9211964c9af78805c7f988a536cc567e0583e944671e0af978c9b27b07-d?mw=900&mh=506" alt="">
+                <h3>Titulo Gato 5</h3>
+
+            </button>
+            <button class="select-video" id="selectVideo6" onclick="changeVideo(this, '//player.vimeo.com/video/390557442?title=0&portrait=0&byline=0&autoplay=1&muted=true', 'Title Cat 6');">
+                <img src="https://i.vimeocdn.com/video/854727397-cb8cf7d65dcb15d46f5c09d0fbeee10e844d8299fd7e6eb9607aaa9f871353a6-d?mw=400&mh=225&q=70" alt="">
+                <h3>Titulo Gato 6</h3>
+
+            </button>
+            <button class="select-video" id="selectVideo7" onclick="changeVideo(this, '//player.vimeo.com/video/463216196?title=0&portrait=0&byline=0&autoplay=1&muted=true', 'Title Cat 7');">
+                <img src="https://i.vimeocdn.com/video/966431114-c1b1280735177a34083d5fffa181a261a9921a9ca461f653bf10b3b90aff62a1-d?mw=400&mh=225&q=70" alt="">
+                <h3>Titulo Gato 7</h3>
+
+            </button>
+            <button class="select-video" id="selectVideo8" onclick="changeVideo(this, '//player.vimeo.com/video/403951191?title=0&portrait=0&byline=0&autoplay=1&muted=true', 'Title Cat 8');">
+                <img src="https://i.vimeocdn.com/video/873734045-da6d4d43f58a516c4ffa2741f4360c56d68319e46a0b25ac410a2c8ef23b421b-d?mw=400&mh=225&q=70" alt="">
+                <h3>Titulo Gato 8</h3>
+
+            </button>
+            <button class="select-video" id="selectVideo9" onclick="changeVideo(this, '//player.vimeo.com/video/403951185?title=0&portrait=0&byline=0&autoplay=1&muted=true', 'Title Cat 9');">
+                <img src="https://i.vimeocdn.com/video/873821862-e49ca8ef0b1131f8b2e423ec4912b8d47e86e41ec26c54904d4110fd617df7e6-d?mw=400&mh=225&q=70" alt="">
+                <h3>Titulo Gato 9</h3>
+
+            </button>
+            <button class="select-video" id="selectVideo10" onclick="changeVideo(this, '//player.vimeo.com/video/204437641?title=0&portrait=0&byline=0&autoplay=1&muted=true', 'Title Cat 10');">
+                <img src="https://i.vimeocdn.com/video/618950860-53d7150b646691eee541ddc7960bb695c9bf7a63794f83ecb00a0a8fad8c0542-d?mw=400&mh=225&q=70" alt="">
+                <h3>Titulo Gato 10</h3>
+
+            </button>
+            
+        </div>
+
+    </div>
+
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
